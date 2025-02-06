@@ -8,7 +8,7 @@ sudo wget -O /etc/yum.repos.d/jenkins.repo https://pkg.jenkins.io/redhat-stable/
 sudo rpm --import https://pkg.jenkins.io/redhat-stable/jenkins.io-2023.key
 sudo yum upgrade -y
 sudo yum install java-17-amazon-corretto-devel -y
-yum install -y jenkins
+sudo yum install -y jenkins-2.479.3-1.1.noarch
 
 # Start and enable Jenkins
 sudo systemctl enable jenkins
